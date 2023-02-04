@@ -1,0 +1,17 @@
+h1 {
+    font-size: 50px;
+    color:rgb(197, 100, 253);
+}
+ 
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 2px 2px 40px rgb(245, 255, 136);}    
+    to{box-shadow: 2px 2px 40px rgb(255, 0, 247);}
+    
+}
+
